@@ -28,7 +28,7 @@ namespace WishList.Controllers
             return View();
         }
 
-        [HttpGet]
+        [HttpPost]
         [AllowAnonymous]
         public IActionResult Register(RegisterViewModel model)
         {
